@@ -21,6 +21,19 @@ button {
 	font-family: "Poppins", sans-serif;
 }
 
+#password-remember,
+button {
+	cursor: pointer;
+}
+#password-remember:hover,
+button:hover {
+	filter: brightness(1.2);
+}
+
+#password-remember {
+	color: #820ad1;
+}
+
 h1,
 h2,
 h3,
