@@ -5,6 +5,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Desafio login</title>
 	</head>
 	<body>
@@ -18,26 +30,29 @@
 					<img src="./images/306px-ISO_C++_Logo.svg.png" alt="logo CPP" />
 					<h1>Meu site massa</h1>
 				</div>
+				<h2>NUbank</h2>
 				<div class="parameters">
-					<div id="inputs">
-						<h2>Welcome</h2>
-						<input type="text" placeholder="Login" id="login" />
-						<input type="password" placeholder="senha" id="senha" />
-					</div>
-					<div class="other-options">
-						<div class="remember">
-							<input
-								type="checkbox"
-								name="Remember-password"
-								id="password-remember"
-							/>
-							<p>Remember?</p>
+					<div class="box">
+						<div id="inputs">
+							<h3>Faça seu login</h3>
+							<input type="text" placeholder="Login" id="login" />
+							<input type="password" placeholder="senha" id="senha" />
 						</div>
-						<div class="forgot">
-							<button id="forgot-password">Forgot password?</button>
+						<div class="other-options">
+							<div class="remember">
+								<input
+									type="checkbox"
+									name="Remember-password"
+									id="password-remember"
+								/>
+								<p>Remember?</p>
+							</div>
+							<div class="forgot">
+								<button id="forgot-password">Forgot password?</button>
+							</div>
 						</div>
+						<button id="submit-button">Submit</button>
 					</div>
-					<button id="submit-button">Submit</button>
 				</div>
 			</div>
 		</main>

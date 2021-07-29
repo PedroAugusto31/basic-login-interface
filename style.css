@@ -6,11 +6,11 @@
 	box-sizing: border-box;
 }
 
-html {
-	--background: rgb(189, 179, 179);
-	--purple: #8b00ff;
+:root {
+	--background: #820ad1;
+	--button: #fff;
 	--title-text: rgb(203 203 203);
-	--text: #000;
+	--text: rgb(165, 165, 165);
 
 	font-size: 62.5%;
 }
@@ -18,6 +18,14 @@ html {
 input,
 button {
 	border-radius: 8px;
+	font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+	font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -26,7 +34,6 @@ body {
 
 main {
 	display: flex;
-	background-image: linear-gradient(230deg, var(--background), rgb(0, 0, 255));
 }
 
 /* Background */
@@ -64,9 +71,15 @@ main {
 .login-nav h1 {
 	margin-left: 1rem;
 	font-size: 4rem;
-	font-weight: 600;
+	font-weight: 500;
 	color: #fff;
-	text-shadow: -3px 5px 3px #000;
+}
+
+.box {
+	width: 32rem;
+	background-color: white;
+	border-radius: 8px;
+	padding: 6rem;
 }
 
 .parameters {
@@ -81,12 +94,11 @@ main {
 	height: 18rem;
 }
 
-.parameters h2 {
-	font-size: 4.5rem;
-	font-weight: 600;
-	color: var(--purple);
-	text-shadow: -1px 2px 4px #000;
-	margin-bottom: 4rem;
+.parameters h3 {
+	font-size: 3.5rem;
+	font-weight: 500;
+	color: #222;
+	margin-bottom: 6rem;
 }
 
 .parameters div {
@@ -102,12 +114,12 @@ main {
 	border-radius: 8px;
 	padding: 1.5rem;
 	margin-bottom: 1rem;
-	color: var(--purple);
+	color: #820ad1;
 }
 
 .parameters input::placeholder {
 	text-align: center;
-	color: var(--purple);
+	color: var(--text);
 }
 
 /* Remember and forgot password */
@@ -116,9 +128,10 @@ div .other-options {
 	width: 50%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	position: relative;
 	flex-direction: row;
+	margin-top: 2rem;
 }
 
 div .other-options .remember {
@@ -129,7 +142,7 @@ div .other-options .remember {
 div .other-options .remember p {
 	font-size: 1.5rem;
 	font-weight: 400;
-	color: var(--title-text);
+	color: #000;
 	margin-bottom: 0.8rem;
 }
 
@@ -142,8 +155,8 @@ div .other-options .forgot button {
 	width: 15rem;
 	padding: 0.8rem;
 	text-align: center;
-	background-color: var(--purple);
-	color: var(--title-text);
+	background-color: #820ad1;
+	color: white;
 }
 
 /* Submit button */
@@ -151,7 +164,7 @@ div .other-options .forgot button {
 #submit-button {
 	width: 30rem;
 	padding: 0.8rem 2.5rem;
-	background-color: var(--purple);
-	color: var(--title-text);
+	background-color: #820ad1;
+	color: white;
 	margin-top: 1.2rem;
 }
