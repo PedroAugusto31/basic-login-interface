@@ -49,6 +49,17 @@ main {
 	display: flex;
 }
 
+section {
+	width: 50vw;
+	margin: 0 10%;
+}
+
+aside {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
 /* Background */
 #image-wrapper {
 	filter: drop-shadow(10px 0px 5px #000);
