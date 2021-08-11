@@ -152,7 +152,7 @@ aside {
 
 /* Remember and forgot password */
 
-div .other-options {
+.other-options {
 	width: 30rem;
 	display: flex;
 	align-items: center;
@@ -162,24 +162,25 @@ div .other-options {
 	margin-top: 2rem;
 }
 
-div .other-options .remember {
+.other-options .remember {
 	display: flex;
 	flex-direction: row;
+	align-items: flex-start;
 }
 
-div .other-options .remember p {
+.other-options .remember p {
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: #000;
 	margin-bottom: 0.8rem;
 }
 
-div .other-options .remember input {
+.other-options .remember input {
 	width: 2rem;
 	height: 2rem;
 	margin-right: 0.5rem;
 }
-div .other-options .forgot button {
+.other-options .forgot button {
 	width: 15rem;
 	padding: 0.8rem;
 	text-align: center;
